@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[-(hyphen)]]></title>
+    <url>%2F2018%2F10%2F07%2Fhyphen%2F</url>
+    <content type="text"><![CDATA[유니코드 시대에는 하이픈, 마이너스, N-Dash, M-Dash를 다루는 코드가 따로 있지만(다 비슷하게 생겼다), ASCII 시대에 -는 하나뿐이었다. cd -123~/ $ cd haha~/haha $ cd -~/ $ manpage에 따르면 cd에 따라오는 -는 하이픈인데, 처음 - 기호를 쓴 사람의 의도는 마이너스였을 거라고 생각한다. 왜냐하면 시간순으로 쌓아온 디렉토리를 하나 뒤로 돌리는 거니까. git checkout -123~/haha master $ git checkout release-1.0~/haha release-1.0 $ git checkout -~/haha master $ git checkout도 같은 논리로 볼 수 있다. - on zshzsh에서는 cd를 생략 가능하다. 123456~/ $ haha~/haha $ -~/ $ cd a/b/c~/a/b/c $ ..~/a/b $ ...~ $ 당연히 ..도 가능하겠고, ...는 재미로 해보자. zsh에 대해서는 Oh My Zsh!도 참고]]></content>
+      <tags>
+        <tag>shell</tag>
+        <tag>zsh</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[shit]]></title>
+    <url>%2F2018%2F09%2F29%2Fshit%2F</url>
+    <content type="text"><![CDATA[The Fuckgithub:nvbn/thefuck 자주 내는 오타, 권한 문제, 리모트에 git push 할 때 자주 보는 git push --set-upstream origin haha 같은. 이 툴이 대신 고쳐준다. Shit하지만 자꾸 fuck fuck 하다보면 기분이 나쁘기 때문에 alias를 잡아놨다는 시시한 이야기. 1alias shit='fuck']]></content>
+      <tags>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[먼지구댕이]]></title>
+    <url>%2F2018%2F09%2F29%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[완전 무식한 초미세먼지(pm2.5) 같은 팁을 올리는 블로그입니다. 먼지가 고양이 털이랑 뭉쳐서 막 굴러다니다가 구석에 모이고 막… 알겠죠? 지난 평생, 모아두는 블로그도 발행해 보았고, 독자에게 이야기하는 블로그도 발행해 보았고, 사람들과 대화하는 블로그도 발행해 보았으나 모두 실패였습니다. 블로그를 통해 소통이 이루어진다? 그것은 일단 내게는 사실이 아니었습니다. 그렇다면 아예 안 쓰는 것은 어떠냐? 그것도 좋은 선택이긴 합니다. 어느날 문득 깨달았습니다. 너무 시시해서 몰랐다고 밝히고 싶지 않은 것들이 쌓여서 내가 되었다. 모르기에는 너무 시시한 것들조차 누구도 다 알 수는 없기 때문에. 어차피 모르는 것에 대해서는 쓸 수도 없다. 아무 기대도 하지 말자. 블로그가 하나의 완전한 생명체가 되길 기대하지 말고 갈기갈기 찢겨서 더 큰 생명체(구글)의 영양분이 되는 것에 만족하자. 그러기로 했습니다.]]></content>
+  </entry>
+</search>
